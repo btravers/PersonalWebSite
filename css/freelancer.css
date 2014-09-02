@@ -1,5 +1,9 @@
 body {
   overflow-x: hidden;
+  background: url("../img/forest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 p {
   font-size: 20px;
@@ -48,8 +52,8 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #617487;
-  color: white;
+  background-color: white;
+  display: none;
 }
 hr.star-primary {
   border-color: #2c3e50;
@@ -57,13 +61,17 @@ hr.star-primary {
 hr.star-primary:after {
   background-color: white;
   color: #2c3e50;
+  display: none;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #617487;
+  background: url("../img/forest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   color: white;
 }
 header .container {
@@ -137,13 +145,14 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+  background: white;
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 section.success {
-  background: #617487;
+  background: none;
   color: white;
 }
 @media (max-width: 767px) {
